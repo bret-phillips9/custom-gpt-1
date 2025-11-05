@@ -1,0 +1,3 @@
+Welcome to ChatDND, a RAG (retrieval-augmented generation)-powered rules assistant for Dungeons & Dragons!  On the left side of the screen below, please type a question and hit Submit Chat.  ChatDND will then look up your question in the 2018 Basic Rules to find an answer.  The answer will be provided to you in the chat window on the right side of the screen below. 
+
+At the bar on the very left of the screen, you will see a "Save Chat to PDF" button that you can use to export the transcript of your chat session to a PDF document.

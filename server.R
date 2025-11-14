@@ -40,9 +40,9 @@ server <- function(input, output, session) {
     # --- Retrieve relevant context ---
     q_emb <- get_embedding(question)
     
-    dnd_rules_emb$similarity <- sapply(dnd_rules_emb$embedding, cosine_sim, b = q_emb)
+    rag_data$similarity <- sapply(rag_data$embedding, cosine_sim, b = q_emb)
     
-    top_chunks <- dnd_rules_emb |> 
+    top_chunks <- rag_data |> 
       arrange(desc(similarity)) |> 
       head(3)
     
